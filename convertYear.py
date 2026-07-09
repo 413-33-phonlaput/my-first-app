@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 st.title("แอปพลิเคชั่นแปลงปี พ.ศ. เป็น ค.ศ.")
 
 bh_year=st.number_input("กรองปี พ.ศ. ที่ต้องแปลง",value=2569)
