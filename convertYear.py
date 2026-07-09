@@ -3,4 +3,4 @@ st.title("แอปพลิเคชั่นแปลงปี พ.ศ. เป
 
 bh_year=st.number_input("กรองปี พ.ศ. ที่ต้องแปลง",value=2569)
 ce_year=bh_year-543
-st.header(f"ปี ค.ศ. คือ : {ce_yaer}")
+st.header(f"ปี ค.ศ. คือ : {ce_year}")
