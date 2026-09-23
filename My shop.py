@@ -28,6 +28,24 @@ if st.button("สั่งซื้อปากกาเจล"):
 
 st.divider()
 
+# 4. แสดงรายการสินค้าชิ้นที่ 3
+st.subheader("3. ดินสอ")
+st.write("ราคา: 7 บาท")
+if st.button("สั่งซื้อดินสอ"):
+    st.session_state.cart.append({"name": "ดินสอ", "price": 7})
+    st.success("บันทึกการสั่งซื้อดินสอเรียบร้อย!")
+
+st.divider()
+
+# 4. แสดงรายการสินค้าชิ้นที่ 3
+st.subheader("3. สีไม้ 24สี")
+st.write("ราคา: 239 บาท")
+if st.button("สั่งซื้อสีไม้ 24สี"):
+    st.session_state.cart.append({"name": "สีไม้ 24สี", "price": 239})
+    st.success("บันทึกการสั่งซื้อสีไม้ 24สีเรียบร้อย!")
+
+st.divider()
+
 # 4. โซนตะกร้าสินค้า คำนวณเงิน และระบบส่วนลด
 st.subheader("🛒 ตะกร้าสินค้าและการชำระเงิน")
 
