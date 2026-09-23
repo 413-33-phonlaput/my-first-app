@@ -4,7 +4,7 @@ import streamlit as st
 if "cart" not in st.session_state:
     st.session_state.cart = []
 
-st.title("🛒 ร้านเครื่องเขียนราคากู้ก")
+st.title("🛒 ร้านเครื่องเขียนราคา67")
 st.write("จัดทำโดย: กลุ่มที่ 5")
 st.divider()
 
@@ -45,7 +45,7 @@ st.divider()
 st.subheader("🛍️ ตะกร้าสินค้าและการคิดเงิน")
 
 if len(st.session_state.cart) == 0:
-    st.info("ยังไม่มีสินค้าในตะกร้า (เลือกสินค้าด้านบนได้เลยครับ)")
+    st.info("ยังไม่มีสินค้าในตะกร้า (เลือกสินค้าด้านบนได้เลยค่ะ)")
 else:
     total_price = 0
     # แสดงสินค้าในตะกร้า
