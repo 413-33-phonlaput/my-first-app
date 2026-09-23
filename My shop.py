@@ -4,7 +4,7 @@ import streamlit as st
 if "cart" not in st.session_state:
     st.session_state.cart = []
 
-st.title("🛒 ร้านเครื่องเขียนราคา67")
+st.title("🛒 ร้านสมุดมิตร")
 st.write("จัดทำโดย: กลุ่มที่ 5")
 st.divider()
 
